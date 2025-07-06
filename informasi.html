@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informasi Sekolah - SD Negeri 03 Bangsri</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefaf6;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #6d9e6d;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffe082;
+    }
+
+    h2 {
+      text-align: center;
+      color: #6d9e6d;
+      margin-top: 40px;
+    }
+
+    .info-container, .guru-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .info-card, .guru-card {
+      background-color: #fffefc;
+      padding: 20px;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .info-card:hover, .guru-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .info-card img, .guru-card img {
+      width: 90px;
+      height: 90px;
+      margin-bottom: 10px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .info-card h3, .guru-card h3 {
+      font-size: 1.2rem;
+      color: #6d9e6d;
+      margin: 10px 0 5px;
+    }
+
+    .info-card p, .guru-card p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .map-section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background-color: #6d9e6d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Portal</a></li>
+        <li><a href="about.html">Beranda</a></li>
+        <li><a href="informasi.html">Informasi</a></li>
+        <li><a href="kontak.html">Kontak Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2 class="fade-in">Informasi Sekolah</h2>
+
+  <div class="info-container fade-in">
+    <div class="info-card">
+      <img src="download.png" alt="Ikon Murid" />
+      <h3>260</h3>
+      <p>Total Siswa</p>
+    </div>
+    <div class="info-card">
+      <img src="jjjjjjjjjj.png" alt="Ikon Guru" />
+      <h3>11</h3>
+      <p>Jumlah Guru</p>
+    </div>
+    <div class="info-card">
+      <img src="download (1).png" alt="Ikon Kamar Mandi" />
+      <h3>5</h3>
+      <p>Jumlah Kamar Mandi</p>
+    </div>
+    <div class="info-card">
+      <img src="download (1).png" alt="Ikon Kelas" />
+      <h3>8</h3>
+      <p>Ruang Kelas</p>
+    </div>
+    <div class="info-card">
+      <img src="download (1).png" alt="Ikon Perpustakaan" />
+      <h3>1</h3>
+      <p>Perpustakaan</p>
+    </div>
+    <div class="info-card">
+      <img src="download (1).png" alt="Ikon Kepala Sekolah" />
+      <h3>1</h3>
+      <p>Ruang Kepala Sekolah</p>
+    </div>
+  </div>
+
+  <h2 class="fade-in">Daftar Guru SD Negeri Bangsri 03</h2>
+  <div class="guru-container fade-in">
+    <div class="guru-card"><img src="KKKKK.jpg" alt=""><h3>S. DARYONO,S.Pd,M.Pd</h3><p>Kepala Sekolah</p></div>
+    <div class="guru-card"><img src="TAPSILA.jpg" alt=""><h3>TAPSILAH, S.Pd</h3><p>Guru Kelas 1</p></div>
+    <div class="guru-card"><img src="UMI.jpg" alt=""><h3>UMI KHABIBAH, S.Pd</h3><p>Guru Matematika</p></div>
+    <div class="guru-card"><img src="NASIKHTUL.jpg" alt=""><h3>NASIKHATUL IMAMA, S.Pd</h3><p>Guru Kelas 6</p></div>
+    <div class="guru-card"><img src="WINDA FEBRIANI.jpg" alt=""><h3>WINDA FEBRIANI <S class="Pd"></S></h3><p>Guru Kelas 3</p></div>
+    <div class="guru-card"><img src="KHASBI.jpg" alt=""><h3>A. KHASBI ALFARIZI S.Pd</h3><p>Guru Kelas 4</p></div>
+    <div class="guru-card"><img src="IRFNDI.jpg" alt=""><h3>IRFANDI, S.Pd</h3><p>Guru Kelas 5</p></div>
+    <div class="guru-card"><img src="EDI.jpg" alt=""><h3>EDI MAFRUKHI, S.pd.I</h3><p>Guru Agama</p></div>
+    <div class="guru-card"><img src="NURUL.jpg" alt=""><h3>NURUL FAJARIYATI S.Pd</h3><p>Guru Bahasa Indonesia</p></div>
+    <div class="guru-card"><img src="NUROKHMN.jpg" alt=""><h3>NUROKHMAN S.Pd</h3><p>Guru Seni Budaya</p></div>
+    <div class="guru-card"><img src="BEPVI.jpg" alt=""><h3>BEPVI ANUNG VIPERIA S.Pd</h3><p>Guru PJOK</p></div>
+    <div class="guru-card"><img src="PUJIJU.jpg" alt=""><h3>PUJI RAHAYU S.Pd</h3><p>Guru Kelas 2</p></div>
+  </div>
+
+  <section class="fade-in" style="max-width: 1000px; margin: 0 auto; padding: 40px 20px;">
+    <h2 style="color: #6d9e6d; text-align: center;">Berita Terbaru</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 30px;">
+      <div style="flex: 1 1 300px; background-color: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 20px;">
+        <img src="bk.jpg" alt="Berita 1" style="width: 50%; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="color: #447438;">Kegiatan Literasi Kelas</h3>
+        <p style="font-size: 0.95rem;">Siswa SDN 03 Bangsri mengikuti kegiatan membaca bersama setiap hari Jumat pagi.</p>
+        <a href="#" style="color: #6d9e6d; text-decoration: none;">Baca Selengkapnya →</a>
+      </div>
+      <div style="flex: 1 1 300px; background-color: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 20px;">
+        <img src="erita.jpg" alt="Berita 2" style="width: 50%; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="color: #447438;">Syukuran</h3>
+        <p style="font-size: 0.95rem;">Warga Dukuh Bantarsari Gelar Tradisi Barikan bersama Pemerintah Daerah.</p>
+        <a href="#" style="color: #6d9e6d; text-decoration: none;">Baca Selengkapnya →</a>
+      </div>
+      <div style="flex: 1 1 300px; background-color: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 20px;">
+        <img src="WhatsApp Image 2025-07-03 at 22.50.52_4cc14471.jpg" alt="Berita 3" style="width: 50%; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="color: #447438;">Kunjungan Dinas Pendidikan</h3>
+        <p style="font-size: 0.95rem;">Dinas Pendidikan Kabupaten Brebes mengunjungi SDN 03 Bangsri untuk monitoring Sekolah Ramah Anak.</p>
+        <a href="#" style="color: #6d9e6d; text-decoration: none;">Baca Selengkapnya →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SD Negeri 03 Bangsri</p>
+  </footer>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.fade-in').forEach((el, i) => {
+        setTimeout(() => el.classList.add('show'), i * 200);
+      });
+    });
+  </script>
+</body>
+</html>
